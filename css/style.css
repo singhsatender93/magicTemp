@@ -467,11 +467,9 @@ button {
 
 .search_section {
     width: 85%;
-    float: right;
-    background-image: url(../images/img-2.png);
+    float: left;
     height: auto;
-    background-size: cover;
-    padding: 15px 0px 25px 0px;
+    padding: 5% 0 4% 10%;
 }
 
 .quick_text {
@@ -676,8 +674,9 @@ button {
 }
 
 .image_8{
-     width: 100%;
-     float: left;
+     max-width: 90%;
+     float: right;
+     margin-top: 7%;
 
 }
 
@@ -692,7 +691,6 @@ button {
      font-weight: bold;
      font-size: 46px;
      color: #323131;
-     text-align: center;
 }
 
 .ipsum_text{
@@ -759,9 +757,10 @@ button {
 .contact_text{
      width: 100%;
      float: left;
-     font-size: 46px;
      font-weight: bold;
+     font-size: 46px;
      color: #c2a20e;
+     text-align: center;
 }
 
 .contact_section_2 {
