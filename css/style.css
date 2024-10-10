@@ -558,7 +558,6 @@ button {
 .images_4{
      width: 100%;
      float: left;
-     background-image: url(../images/img-4.png);
      height: auto;
 }
 
@@ -580,7 +579,7 @@ button {
 .images_7 {
     width: 100%;
     float: left;
-    padding-bottom: 340px;
+    padding-bottom: 80px;
 }
 
 .new_text {
@@ -598,7 +597,7 @@ button {
     width: 100%;
     float: left;
     background-color: rgba(50,49,49,0.9);
-    padding: 35px 0px;
+    padding: 5px;
     position: relative;
     top: -80px;
 }
@@ -613,9 +612,7 @@ button {
 }
 
 .home_text{
-     width: 100%;
-     float: left;
-     font-size: 34px;
+     font-size: 20px;
      color: #fdfdfc;
      text-align: center;
 }
@@ -623,10 +620,9 @@ button {
 .price_text {
     width: 100%;
     float: left;
-    font-size: 34px;
+    font-size: 18px;
     color: #fff;
     text-align: center;
-    font-weight: 600;
 }
 .price_text.active{ color: #000; }
 .price_text:hover{ color: #000; }
