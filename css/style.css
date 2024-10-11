@@ -529,6 +529,7 @@ button {
      height: auto;
      background-size: 100%;
      background-repeat: no-repeat;
+     padding-bottom: 90px;
 }
 
 .realestates_taital{
@@ -745,7 +746,7 @@ button {
 .contact_section {
     width: 100%;
     float: left;
-    background-image: url(../images/img-12.png);
+    background-image: url(../images/test2.jpeg);
     height: auto;
     padding-bottom: 90px;
 }
@@ -762,7 +763,6 @@ button {
 .contact_section_2 {
     width: 100%;
     float: left;
-    background-color: rgb(27,27,28,0.9);
     border-radius: 20px;
 }
 
