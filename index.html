@@ -1,232 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- basic -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- mobile metas -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<!-- site metas -->
-<title>Pro Forma Magic</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.png">
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">	
-<!-- bootstrap css -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<!-- style css -->
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- Responsive-->
-<link rel="stylesheet" href="css/responsive.css">
-<!-- fevicon -->
-<link rel="icon" href="images/fevicon.png" type="image/gif" />
-<!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-<!-- Tweaks for older IEs-->
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<!-- owl stylesheets --> 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/owl.theme.default.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-<script>
-  (function(w, d, t, h, s, n) {
-    w.FlodeskObject = n;
-    var fn = function() {
-      (w[n].q = w[n].q || []).push(arguments);
-    };
-    w[n] = w[n] || fn;
-    var f = d.getElementsByTagName(t)[0];
-    var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
-    var sm = d.createElement(t);
-    sm.async = true;
-    sm.type = 'module';
-    sm.src = h + s + '.mjs' + v;
-    f.parentNode.insertBefore(sm, f);
-    var sn = d.createElement(t);
-    sn.async = true;
-    sn.noModule = true;
-    sn.src = h + s + '.js' + v;
-    f.parentNode.insertBefore(sn, f);
-  })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
-</script>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Pro Forma Magic</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif"/>
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+          media="screen">
+    <script>
+        (function(w, d, t, h, s, n) {
+          w.FlodeskObject = n;
+          var fn = function() {
+            (w[n].q = w[n].q || []).push(arguments);
+          };
+          w[n] = w[n] || fn;
+          var f = d.getElementsByTagName(t)[0];
+          var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+          var sm = d.createElement(t);
+          sm.async = true;
+          sm.type = 'module';
+          sm.src = h + s + '.mjs' + v;
+          f.parentNode.insertBefore(sm, f);
+          var sn = d.createElement(t);
+          sn.async = true;
+          sn.noModule = true;
+          sn.src = h + s + '.js' + v;
+          f.parentNode.insertBefore(sn, f);
+        })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+    </script>
 
 </head>
 <body>
-	<!--header section start -->
-    <div class="header_section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
-                </div>
-                <div class="col-md-8">
-                    <div class="menu_text">
-                        <ul>
-                        	<li class="active"><a href="index.html">HOME</a></li>
-                            <li><a href="#about">SERVICES</a></li>
-                            <li><a href="#properties">ADVANTAGES</a></li>
-                            <li><a href="#features">FEATURES</a></li>
-							<li><a href="#summary">ANALYSIS</a></li>
-							<li><a href="#pricing">PRICING</a></li>
-							<li><a href="#team">TEAM</a></li>
-                            <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<!--                <div class="overlay-content">
-                  <a href="index.html">HOME</a>
-                  <a href="about.html">ABOUT</a>
-                  <a href="price.html">PROPERTIES</a>
-                  <a href="gym.html">BLOG</a>
-                  <a href="gym.html">LOGIN</a>
-                  <a href="gym.html">REGISTER</a>
-                  <a href="class.html">CONTACT US</a>
-                </div>-->
-                </div>
-<!--                <span  style="font-size:33px;cursor:pointer; color: #ffffff;" onclick="openNav()"><img src="images/toggle-icon.png" class="toggle_menu"></span>-->
+<!--header section start -->
+<div class="header_section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            </div>
+            <div class="col-md-8">
+                <div class="menu_text">
+                    <ul>
+                        <li class="active"><a href="index.html">HOME</a></li>
+                        <li><a href="#about">SERVICES</a></li>
+                        <li><a href="#properties">ADVANTAGES</a></li>
+                        <li><a href="#features">FEATURES</a></li>
+                        <li><a href="#summary">ANALYSIS</a></li>
+                        <li><a href="#pricing">PRICING</a></li>
+                        <li><a href="#team">TEAM</a></li>
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <!--                <div class="overlay-content">
+                                              <a href="index.html">HOME</a>
+                                              <a href="about.html">ABOUT</a>
+                                              <a href="price.html">PROPERTIES</a>
+                                              <a href="gym.html">BLOG</a>
+                                              <a href="gym.html">LOGIN</a>
+                                              <a href="gym.html">REGISTER</a>
+                                              <a href="class.html">CONTACT US</a>
+                                            </div>-->
+                        </div>
+                        <!--                <span  style="font-size:33px;cursor:pointer; color: #ffffff;" onclick="openNav()"><img src="images/toggle-icon.png" class="toggle_menu"></span>-->
                 </div>
                 </li>
                 </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- header section end -->
+<!--banner section start -->
+<div class="banner_section">
+    <div class="banner_bg">
+        <div class="banner_main">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0"></li> <!-- class="active" -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-7 padding_0">
+                                <div class="taital_main">
+                                    <h1 class="banner_taital">Create Powerful Real Estate Investment Reports</h1>
+                                    <p class="contrary_text">Comprehensive analysis for real estate professionals,
+                                        investors, and sellers.</p>
+                                    <div class="btn_main">
+                                        <ul>
+                                            <li class="active"><a href="#">Coming Soon</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--    				            	<div class="image_1"><img src="images/img-1.png"></div>-->
+                            </div>
+                            <div class="col-sm-5">
+                                <!--    				            	<div class="way_main">
+                                                                        <h1 class="way_text">WAY REALESTATE</h1>
+                                                                        <div class="way_main_text">
+                                                                                <ul>
+                                                                                    <li class="active"><a href="#">01</a></li>
+                                                                                    <li><a href="#">02</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>-->
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--                        <div class="carousel-item">
+                                                <div class="container-fluid"></div>
+                                                    <div class="row">
+                                                        <div class="col-sm-7 padding_0">
+                                                            <div class="taital_main">
+                                                                <h1 class="banner_taital">THE BEST WAY TO FIND YOUR HOME</h1>
+                                                                <p class="contrary_text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over</p>
+                                                                <div class="btn_main">
+                                                                    <ul>
+                                                                        <li class="active"><a href="#">ABOUT US</a></li>
+                                                                        <li><a href="#">VIEW MORE</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="image_1"><img src="images/img-1.png"></div>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="way_main">
+                                                                <h1 class="way_text">WAY REALESTATE</h1>
+                                                                <div class="way_main_text">
+                                                                    <ul>
+                                                                        <li class="active"><a href="#">01</a></li>
+                                                                        <li><a href="#">02</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                  <div class="container-fluid"></div>
+                                                    <div class="row">
+                                                        <div class="col-sm-7 padding_0">
+                                                            <div class="taital_main">
+                                                                <h1 class="banner_taital">THE BEST WAY TO FIND YOUR HOME</h1>
+                                                                <p class="contrary_text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over</p>
+                                                                <div class="btn_main">
+                                                                    <ul>
+                                                                        <li class="active"><a href="#">ABOUT US</a></li>
+                                                                        <li><a href="#">VIEW MORE</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="image_1"><img src="images/img-1.png"></div>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <div class="way_main">
+                                                                <h1 class="way_text">WAY REALESTATE</h1>
+                                                                <div class="way_main_text">
+                                                                    <ul>
+                                                                        <li class="active"><a href="#">01</a></li>
+                                                                        <li><a href="#">02</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>-->
                 </div>
             </div>
         </div>
     </div>
-    <!-- header section end -->
-    <!--banner section start -->
-    <div class="banner_section">
-    	<div class="banner_bg">
-    		<div class="banner_main">
-    			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li> <!-- class="active" -->
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
-                    </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <div class="row">
-    				            <div class="col-sm-7 padding_0">
-    				            	<div class="taital_main">
-    				            		<h1 class="banner_taital">Create Powerful Real Estate Investment Reports</h1>
-    				            		<p class="contrary_text">Comprehensive analysis for real estate professionals, investors, and sellers.</p>
-    				            		<div class="btn_main">
-                                            <ul>
-                                                <li class="active"><a href="#">Coming Soon</a></li>
-                                            </ul>
-                                        </div>
-    				            	</div>
-<!--    				            	<div class="image_1"><img src="images/img-1.png"></div>-->
-    				            </div>
-    				            <div class="col-sm-5">
-<!--    				            	<div class="way_main">
-    				            		<h1 class="way_text">WAY REALESTATE</h1>
-    				            		<div class="way_main_text">
-                                                <ul>
-                                                    <li class="active"><a href="#">01</a></li>
-                                                    <li><a href="#">02</a></li>
-                                                </ul>
-                                            </div>
-    				            	    </div>-->
-    				                </div>
-    
-    			                </div>
-                            </div>
-<!--                        <div class="carousel-item">
-                            <div class="container-fluid"></div>
-                                <div class="row">
-    				                <div class="col-sm-7 padding_0">
-    				                	<div class="taital_main">
-    				                		<h1 class="banner_taital">THE BEST WAY TO FIND YOUR HOME</h1>
-    				                		<p class="contrary_text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over</p>
-    				                		<div class="btn_main">
-                                                <ul>
-                                                    <li class="active"><a href="#">ABOUT US</a></li>
-                                                    <li><a href="#">VIEW MORE</a></li>
-                                                </ul>
-                                            </div>
-    				                	</div>
-    				                	<div class="image_1"><img src="images/img-1.png"></div>
-    				                </div>
-    				                <div class="col-sm-5">
-    				                	<div class="way_main">
-    				                		<h1 class="way_text">WAY REALESTATE</h1>
-    				                		<div class="way_main_text">
-                                                <ul>
-                                                    <li class="active"><a href="#">01</a></li>
-                                                    <li><a href="#">02</a></li>
-                                                </ul>
-    				                	    </div>
-    				                    </div>
-    			                    </div>
-                                </div>
-                            </div>
+</div>
+<!--banner section end -->
+<!--search section start -->
+<div class="search_section">
+    <div id="fd-form-66d5662a9d41be5552819b5c"></div>
+    <script>
+        window.fd('form', {
+          formId: '66d5662a9d41be5552819b5c',
+          containerEl: '#fd-form-66d5662a9d41be5552819b5c'
+        });
+    </script>
+    <!--    	<div class="container">
+                <h3 class="quick_text">Quick search</h3>
+                <div class="search_bt_main">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <input type="" class="contract_text" placeholder="All contracts" name="All contracts">
                         </div>
-                        <div class="carousel-item">
-                          	<div class="container-fluid"></div>
-                                <div class="row">
-    				                <div class="col-sm-7 padding_0">
-    				                	<div class="taital_main">
-    				                		<h1 class="banner_taital">THE BEST WAY TO FIND YOUR HOME</h1>
-    				                		<p class="contrary_text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over</p>
-    				                		<div class="btn_main">
-                                                <ul>
-                                                    <li class="active"><a href="#">ABOUT US</a></li>
-                                                    <li><a href="#">VIEW MORE</a></li>
-                                                </ul>
-                                            </div>
-    				                	</div>
-    				                	<div class="image_1"><img src="images/img-1.png"></div>
-    				                </div>
-    				                <div class="col-sm-5">
-    				                	<div class="way_main">
-    				                		<h1 class="way_text">WAY REALESTATE</h1>
-    				                		<div class="way_main_text">
-                                                <ul>
-                                                    <li class="active"><a href="#">01</a></li>
-                                                    <li><a href="#">02</a></li>
-                                                </ul>
-    				                	    </div>
-    				                    </div>
-    			                    </div>
-                                </div>
-                        </div>-->
+                        <div class="col-sm-6 col-lg-3">
+                            <input type="" class="contract_text" placeholder="Property Title" name="Property Title">
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <input type="" class="contract_text" placeholder="Property Type" name="Property Type">
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="search_bt"><a href="#">Search</a></div>
+                        </div>
                     </div>
                 </div>
-    		</div>
-    	</div>
-    </div>
-    <!--banner section end -->
-    <!--search section start -->
-    <div class="search_section">
-		<div id="fd-form-66d5662a9d41be5552819b5c"></div>
-		<script>
-			window.fd('form', {
-              formId: '66d5662a9d41be5552819b5c',
-              containerEl: '#fd-form-66d5662a9d41be5552819b5c'
-            });
-		</script>
-<!--    	<div class="container">
-    		<h3 class="quick_text">Quick search</h3>
-    		<div class="search_bt_main">
-    			<div class="row">
-    				<div class="col-sm-6 col-lg-3">
-    					<input type="" class="contract_text" placeholder="All contracts" name="All contracts">
-    				</div>
-    				<div class="col-sm-6 col-lg-3">
-    					<input type="" class="contract_text" placeholder="Property Title" name="Property Title">
-    				</div>
-    				<div class="col-sm-6 col-lg-3">
-    					<input type="" class="contract_text" placeholder="Property Type" name="Property Type">
-    				</div>
-    				<div class="col-sm-6 col-lg-3">
-    					<div class="search_bt"><a href="#">Search</a></div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>-->
-    </div>
-    <!-- search section end -->
-    <!-- Realestates section start -->
+            </div>-->
+</div>
+<!-- search section end -->
+<!-- Realestates section start -->
 <!--    <div class="realestates_section layout_padding">-->
 <!--    	<div class="container-fluid">-->
 <!--    		<div class="realestates_bg">-->
@@ -271,231 +273,238 @@
 <!--    		</div>-->
 <!--    	</div>-->
 <!--    </div>-->
-    <!-- Realestates section end -->
-    <!-- about section start -->
-    <div id= "about" class="about_section">
+<!-- Realestates section end -->
+<!-- about section start -->
+<div id="about" class="about_section">
     </br></br>
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-6">
-    				<h1 class="about_text">Services</h1>
-					<p class="lorem_text">An Essential Real Estate Tool
-						</br></br>Pro Forma Magic is a robust professional-grade real estate investment
-						analysis tool. Build invaluable reports for any property type big or small, and choose your
-						investment strategy to guide important real estate decisions; proudly developed by experienced
-						real estate professionals for agents, investors, sellers, mortgage brokers, lenders, property
-						managers, builders, and appraisers.</p>
-    			</div>
-    			<div class="col-md-6">
-    				<div class="image_8"><img src="images/img-8.png"></div>
-    			</div>
-    		</div>
-    	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="about_text">Services</h1>
+                <p class="lorem_text">An Essential Real Estate Tool
+                    </br></br>Pro Forma Magic is a robust professional-grade real estate investment
+                    analysis tool. Build invaluable reports for any property type big or small, and choose your
+                    investment strategy to guide important real estate decisions; proudly developed by experienced
+                    real estate professionals for agents, investors, sellers, mortgage brokers, lenders, property
+                    managers, builders, and appraisers.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="image_8"><img src="images/img-8.png"></div>
+            </div>
+        </div>
     </div>
-    <!-- about section end -->
-	<!-- Properties section start -->
-	<div id= "properties" class="properties_section layout_padding">
-		<div class="container">
-			<h1 class="properties_text"><span style="color: #c2a20e;">Advantages</span> </h1>
-			<p class="ipsum_text">If you’re a real estate professional looking to win more business and close more deals,
-				use Pro Forma Magic. Sellers benefit from examining their properties from an investor's perspective to
-				establish realistic list price expectations. Buyers can determine their purchase price threshold and
-				forecast investment opportunities with great detail.</p>
-			<div class="properties_section_2">
-				<div class="container">
-					<div class="images_main">
-						<div class="images_left custom_box-style"></div>
-						<div class="images_middle custom_box-style"></div>
-						<div class="images_right custom_box-style"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Properties section end -->
-	<!-- Rent Roll section start -->
-	<div id="features" class="properties_section layout_padding">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h1 class="properties_text"><span style="color: #c2a20e;">Features</span></h1>
-					<p class="lorem_text">Benefit from our proprietary feature-rich multi-year rent roll designed to
-						help you illustrate current revenue and make projections with great detail. Input lease dates, allocate
-						recoverable expenses by tenant, choose lease types, factor in fixture periods, vacancy
-						contingencies, net rent-free periods, tenant allowances, closing costs, capital cost improvements, usable and
-						rentable square footage, and more. Pro Forma Magic offers significant data points to help you determine
-						the viability of a real estate investment.</p>
-				</div>
-				<div class="col-md-6">
-					<div class="image_8"><img src="images/rentRoll.png"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Rent Roll section end -->
-	<!-- Summary section start -->
-    <div id= "summary" class="realestates_section layout_padding">
-    	<div class="container-fluid">
-    		<div class="realestates_bg">
-    			<div class="container">
-    			    <h1 class="realestates_taital">Analysis</h1>
-    			    <p class="Contrary_taital">Prepare real estate investment reports for every property type and size.
-						Analyze single-family, condominiums, multi-family, mixed-use, retail, industrial, office, and
-						land—even site plan projects up to fully costed developments. Choose your investment strategy
-						like buy-and-hold, build and sell, or select an add-value strategy like renovate and flip,
-						entitlements, or improve and refinance. Select your acquisition date and adjust rent or sale
-						prices for future dates. Analyze real estate with detailed data points and customizable features
-						to tailor reports to your investment timeline. Every report includes an analysis that summarizes
-						the most important metrics people want to know. Unique to Pro Forma Magic, this summary helps
-						readers interpret the data quickly. Real estate professionals benefit from quality presentations
-						that clients will appreciate. Investors and sellers will profit from pro formas that are
-						instrumental in decision-making.</p>
-    			</div>
-    		</div>
-    	</div>
+</div>
+<!-- about section end -->
+<!-- Properties section start -->
+<div id="properties" class="properties_section layout_padding">
+    <div class="container">
+        <h1 class="properties_text"><span style="color: #c2a20e;">Advantages</span></h1>
+        <p class="ipsum_text">If you’re a real estate professional looking to win more business and close more deals,
+            use Pro Forma Magic. Sellers benefit from examining their properties from an investor's perspective to
+            establish realistic list price expectations. Buyers can determine their purchase price threshold and
+            forecast investment opportunities with great detail.</p>
+        <div class="properties_section_2">
+            <div class="container">
+                <div class="images_main">
+                    <div class="images_left custom_box-style"></div>
+                    <div class="images_middle custom_box-style"></div>
+                    <div class="images_right custom_box-style"></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Realestates section end -->
-    <!-- contact section start --> 
-    <div id="pricing" class="contact_section layout_padding">
-    	<div class="container">
-    		<h1 class="contact_text">Pricing</h1>
-    		<div class="contact_section_2">
-    			<div class="row">
-    				<div class="col-md-12">
-    				    <div class="mail_main">
-    				      <div id="fd-form-66ceab16dc9099781d4d7369"></div>
+</div>
+<!-- Properties section end -->
+<!-- Rent Roll section start -->
+<div id="features" class="properties_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="properties_text"><span style="color: #c2a20e;">Features</span></h1>
+                <p class="lorem_text">Benefit from our proprietary feature-rich multi-year rent roll designed to
+                    help you illustrate current revenue and make projections with great detail. Input lease dates,
+                    allocate
+                    recoverable expenses by tenant, choose lease types, factor in fixture periods, vacancy
+                    contingencies, net rent-free periods, tenant allowances, closing costs, capital cost improvements,
+                    usable and
+                    rentable square footage, and more. Pro Forma Magic offers significant data points to help you
+                    determine
+                    the viability of a real estate investment.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="image_8"><img src="images/rentRoll.png"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Rent Roll section end -->
+<!-- Summary section start -->
+<div id="summary" class="realestates_section layout_padding">
+    <div class="container-fluid">
+        <div class="realestates_bg">
+            <div class="container">
+                <h1 class="realestates_taital">Analysis</h1>
+                <p class="Contrary_taital">Prepare real estate investment reports for every property type and size.
+                    Analyze single-family, condominiums, multi-family, mixed-use, retail, industrial, office, and
+                    land—even site plan projects up to fully costed developments. Choose your investment strategy
+                    like buy-and-hold, build and sell, or select an add-value strategy like renovate and flip,
+                    entitlements, or improve and refinance. Select your acquisition date and adjust rent or sale
+                    prices for future dates. Analyze real estate with detailed data points and customizable features
+                    to tailor reports to your investment timeline. Every report includes an analysis that summarizes
+                    the most important metrics people want to know. Unique to Pro Forma Magic, this summary helps
+                    readers interpret the data quickly. Real estate professionals benefit from quality presentations
+                    that clients will appreciate. Investors and sellers will profit from pro formas that are
+                    instrumental in decision-making.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Realestates section end -->
+<!-- contact section start -->
+<div id="pricing" class="contact_section layout_padding">
+    <div class="container">
+        <h1 class="contact_text">Pricing</h1>
+        <div class="contact_section_2">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mail_main">
+                        <div id="fd-form-66ceab16dc9099781d4d7369"></div>
+                    </div>
+                </div>
+                <!--    				<div class="col-md-5">
+                                        <div class="waye_main">
+                                            <h3 class="waye_taital">Pro Forma Magic</h3>
+                                        </div>
+                                        <h1 class="best_text">Create Real Estate Investment Reports</h1>
+                                    </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact section end -->
+<!-- team section start -->
+<div id="team" class="realestates_section layout_padding">
+    <div class="container">
+        <div class="realestates_bg">
+            <div class="container">
+                <h1 class="realestates_taital">Our Team</h1>
+                <!--					<p class="Contrary_taital">Coming Soon </p>-->
+            </div>
+            <div class="realestates_section_2">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="images_4">
+                            <div class="images_7"><img src="images/Mitch.jpg" alt="Mitch Gauzas"></div>
                         </div>
-    				</div>
-<!--    				<div class="col-md-5">
-    					<div class="waye_main">
-    						<h3 class="waye_taital">Pro Forma Magic</h3>
-    					</div>
-    					<h1 class="best_text">Create Real Estate Investment Reports</h1>
-    				</div>-->
-    			</div>
-    		</div>
-    	</div>
+                        <div class="home_taital_main active">
+                            <div class="home_text">Mitch Gauzas</div>
+                            <h4 class="price_text active">Co-founder and CEO
+                                <br>Licensed REALTOR® since 2005
+                                specializing in commercial sales and leasing, past director of commercial real
+                                estate at the Ottawa Real Estate Board</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="images_4">
+                            <div class="images_7"><img src="images/Face.jpg" alt="Mitch Gauzas"></div>
+                        </div>
+                        <div class="home_taital_main active">
+                            <div class="home_text">S. Singh</div>
+                            <h4 class="price_text active">Co-founder and CTO
+                                <br>Software Professional with more than 10 years of experience in
+                                Enterprise Software Development, driving digital transformation, and scalable technology
+                                solutions.</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="images_4">
+                            <div class="images_7"><img src="images/Face.jpg" alt="Mitch Gauzas"></div>
+                        </div>
+                        <div class="home_taital_main active">
+                            <div class="home_text">M. Singh</div>
+                            <h4 class="price_text active">Co-founder and CIO
+                                <br>Technology expert with a strong background in Software Testing,
+                                ensuring quality, optimizing IT operations, and driving strategic digital
+                                transformation initiatives.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- contact section end -->
-	<!-- team section start -->
-	<div id="team" class="realestates_section layout_padding">
-		<div class="container">
-			<div class="realestates_bg">
-				<div class="container">
-					<h1 class="realestates_taital">Our Team</h1>
-<!--					<p class="Contrary_taital">Coming Soon </p>-->
-				</div>
-				<div class="realestates_section_2">
-					<div class="row">
-						<div class="col-lg-4">
-							<div class="images_4">
-								<div class="images_7"><img src="images/Mitch.jpg" alt="Mitch Gauzas"></div>
-							</div>
-							<div class="home_taital_main active">
-								<div class="home_text">Mitch Gauzas</div>
-								<h4 class="price_text active">Co-founder and CEO
-									<br>Licensed REALTOR® since 2005
-									specializing in commercial sales and leasing, past director of commercial real
-									estate at the Ottawa Real Estate Board</h4>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="images_4">
-								<div class="images_7"><img src="images/Face.jpg" alt="Mitch Gauzas"></div>
-							</div>
-							<div class="home_taital_main active">
-								<div class="home_text">S. Singh</div>
-								<h4 class="price_text active">Co-founder and CTO
-									<br>Software Professional with more than 10 years of experience in
-									Enterprise Software Development, driving digital transformation, and scalable technology solutions.</h4>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="images_4">
-								<div class="images_7"><img src="images/Face.jpg" alt="Mitch Gauzas"></div>
-							</div>
-							<div class="home_taital_main active">
-								<div class="home_text">M. Singh</div>
-								<h4 class="price_text active">Co-founder and CIO
-									<br>Technology expert with a strong background in Software Testing,
-									ensuring quality, optimizing IT operations, and driving strategic digital
-									transformation initiatives.</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- team section end -->
-    <!-- footer section start -->
-    <div class="footer_section layout_padding">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-sm-4">
-    				<h1 class="addres_text">Address</h1>
-    				<div class="call_text"><img src="images/call-icon.png"><span class="padding_left_0">613.302.5752</span></div>
-    				<div class="call_text"><img src="images/mail-icon.png"><span class="padding_left_0">support@proformamagic.com</span></div>
-    				<div class="call_text"><img src="images/map-icon.png"><span class="padding_left_0">2 Barbara Ann Priavte, Ottawa, ON, K2C 3V2</span></div>
-    			</div>
-    			<div class="col-sm-4 border_left_0">
-    				<div class="footer_menu">
-    					<ul>
-    						<li class="active"><a href="#">Home</a></li>
-    						<li><a href="#about">Services</a></li>
-                            <li><a href="#properties">Advantages</a></li>
-							<li><a href="#features">Features</a></li>
-                            <li><a href="#summary">Analysis</a></li>
-							<li><a href="#pricing">Pricing</a></li>
-							<li><a href="#team">Team</a></li>
-    					</ul>
-    				</div>
-    			</div>
-    			<div class="col-sm-4 border_left_0">
-    				<h1 class="addres_text">Sign up for 50% off</h1>
-    				<input type="text" class="email_text" placeholder="enter your email" name="enter your email">
-    				<div class="subscribe_bt">Subscribe</div>
-    				<div class="social_icon">
-    					<ul>
-    						<li><a href="#"><img src="images/fb-icon.png"></a></li>
-    						<li><a href="#"><img src="images/twitter-icon.png"></a></li>
-    						<li><a href="#"><img src="images/instagram-icon.png"></a></li>
-    					</ul>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </div>   
-    <!-- footer section end --> 
-    <!-- copyright section end --> 
-    <div class="copyright_section">
-  	    <div class="container">
-  		    <p class="copyright_text">Copyright 2024. All Rights Reserved. Designed By Pro Forma Magic Inc.</p>
-  	    </div>
-    </div>  
-    <!-- copyright section end --> 
+</div>
+<!-- team section end -->
+<!-- footer section start -->
+<div class="footer_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1 class="addres_text">Address</h1>
+                <div class="call_text"><img src="images/call-icon.png"><span class="padding_left_0">613.302.5752</span>
+                </div>
+                <div class="call_text"><img src="images/mail-icon.png"><span class="padding_left_0">support@proformamagic.com</span>
+                </div>
+                <div class="call_text"><img src="images/map-icon.png"><span class="padding_left_0">2 Barbara Ann Priavte, Ottawa, ON, K2C 3V2</span>
+                </div>
+            </div>
+            <div class="col-sm-4 border_left_0">
+                <div class="footer_menu">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">Services</a></li>
+                        <li><a href="#properties">Advantages</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#summary">Analysis</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#team">Team</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4 border_left_0">
+                <h1 class="addres_text">Sign up for 50% off</h1>
+                <input type="text" class="email_text" placeholder="enter your email" name="enter your email">
+                <div class="subscribe_bt">Subscribe</div>
+                <div class="social_icon">
+                    <ul>
+                        <li><a href="#"><img src="images/fb-icon.png"></a></li>
+                        <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+                        <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer section end -->
+<!-- copyright section end -->
+<div class="copyright_section">
+    <div class="container">
+        <p class="copyright_text">Copyright 2024. All Rights Reserved. Designed By Pro Forma Magic Inc.</p>
+    </div>
+</div>
+<!-- copyright section end -->
 
 
-    <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
-    <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
-    <!-- javascript --> 
-    <script src="js/owl.carousel.js"></script>
-    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <script>
+<!-- Javascript files-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/plugin.js"></script>
+<!-- sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- javascript -->
+<script src="js/owl.carousel.js"></script>
+<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<script>
     $(document).ready(function(){
     $(".fancybox").fancybox({
        openEffect: "none",
        closeEffect: "none"
        });
-    </script> 
-    <script>
+</script>
+<script>
     function openNav() {
     document.getElementById("myNav").style.width = "100%";
     }
@@ -503,15 +512,14 @@
     function closeNav() {
    document.getElementById("myNav").style.width = "0%";
    }
-   </script>
-   <script>
-      window.fd('form', {
-       formId: '66ceab16dc9099781d4d7369',
-       containerEl: '#fd-form-66ceab16dc9099781d4d7369'
-      });
-   </script>
+</script>
+<script>
+    window.fd('form', {
+     formId: '66ceab16dc9099781d4d7369',
+     containerEl: '#fd-form-66ceab16dc9099781d4d7369'
+    });
+</script>
 
 
-     
 </body>
 </html>
