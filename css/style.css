@@ -524,12 +524,12 @@ button {
 .realestates_bg{
      width: 100%;
      float: left;
-     background-image: url(../images/img-3.png);
      height: auto;
      background-size: 100%;
      background-repeat: no-repeat;
      padding-bottom: 90px;
 }
+/*background-image: url(../images/img-3.png); */
 
 .realestates_taital{
      width: 100%;
@@ -672,7 +672,11 @@ button {
 .image_8{
      max-width: 90%;
      margin-top: 7%;
+}
 
+.image_8_copy{
+     max-width: 90%;
+     margin-top: 18%;
 }
 
 .properties_section{
