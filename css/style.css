@@ -630,6 +630,7 @@ button {
 .about_section{
      width: 100%;
      float: left;
+     padding-top: 90px;
 }
 
 .about_text{
